@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .centreContainer{
+            width: 1000px;
+            margin: auto;
+            padding:20px;
+        }
+        div#section1{
+            width: 100%;
+            background-color: #1F2937;
+        }
+        div.navbar a, div#section1 p{
+            color: #E5E7EB;
+            font-size: 18px;
+        }
+        div#welcome a{
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            background-color: #3882F6;
+            rounded-corners: 10px;
+            width: auto;
+        }
+        div.headerlogo{
+            display: flex;
+            justify-content: flex-end;
+        }
+        div.headerlogo div{
+            flex: 0 0 auto;
+            gap: 20px;
+            padding: 20px;
+        }
+        div#headerImage{
+            margin-right: auto;
+        }
+        div.halfBox{
+            display: flex;
+            align-items: center;
+        }
+        div.halfBox div{
+            flex: 1 1 auto;
+            width: 50%;
+        }
+        div.halfBox img{
+            /*width: 50%;*/
+            min-width: 400px;
+            min-height: 300px;
+            width: 100%;
+        }
+        div#welcome a{
+            text-decoration: none;
+
+            color: white;
+
+
+        }
+        div#section2{
+
+            text-align: center;
+
+
+        }
+
+        div.randomRow{
+
+
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        div.randomItem{
+            flex: 0 0 auto;
+            
+            width: 200px;
+            text-align: center;
+
+
+        }
+        div.randomItem img{
+            height: 200px;
+            min-width: 200px;
+            display: block;
+        }
+    </style>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div id="section1">
+        <div class="centreContainer">
+            <div class="navbar">
+                <div class="headerlogo">
+                    <div id='headerImage'><img src="logo.jpg" alt="Header Logo"></div>
+                    <div><a href="">Header Link One</a></div>
+                    <div><a href="">Header Link Two</a></div>
+                    <div><a href="">Header Link Three </a></div>
+                </div>
+            </div>
+            <div class="halfBox">
+                <div id="welcome">
+                    <h1>Welcome to this awesome site</h1>
+                    <p>Here is some really boring text. Here is some really boring text. Here is some really boring text. </p>
+                    <a href="signup.html">Sign up here</a>
+                </div>
+                <div>
+                    <img src="dogs.jpg" alt="Dogs">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="centreContainer">
+            <h2>Some random information</h2>
+            <div class="randomRow">
+                <div class="randomItem">
+                    <img src="random.jpg">
+                    <p>Here's some more random text about it.</p>
+                </div>
+                <div class="randomItem">
+                    <img src="random.jpg">
+                    <p>Here's some more random text about it.</p>
+                </div>
+                <div class="randomItem">
+                    <img src="random.jpg">
+                    <p>Here's some more random text about it.</p>
+                </div>
+                <div class="randomItem">
+                    <img src="random.jpg">
+                    <p>Here's some more random text about it.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="centreContainer" id="quoteRow">
+
+            <p id="quoteText">"Here's some really interesting and meaningful quote. "Here's some really interesting and meaningful quote. "Here's some really interesting and meaningful quote. "Here's some really interesting and meaningful quote. "Here's some really interesting and meaningful quote. "Here's some really interesting and meaningful quote</p
+>
+            <p id="quoteAuthor">- Thor, God of Thunder</p>
+        
+        </div>
+    </div>
+    <div id="section4">
+        <div class="centreContainer">
+            <div id="callToAction">
+                <div>
+                    <h3>This is a call to action</h3>
+                    <p>You must do this. You must do this. You must do this. You must do this.</p>
+                </div>
+                <div>
+                    <a href="">Sign up now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section5">
+        <p>&copy; Copyright Chris Pangburn 2026.</p>
+    </div>
+  </body>
+</html>
